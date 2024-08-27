@@ -31,7 +31,7 @@
           extend: {
             colors: {
               clifford: "#da373d",
-              "color-primary": "rgb(171, 239, 95)",
+              "color-primary": "rgba(171, 239, 95)",
               "color-secondary":'rgba(171, 239, 95, 0.5)',
               'color-third':'rgba(171, 239, 95, 0.2)'
             },
@@ -135,7 +135,7 @@
          <!-- banner content container -->
           <div class="flex flex-col justify-center items-center gap-6">
                 <h2 class="text-[30px] md:text-[50px] leading-tight lg:text-[64px] font-[900] text-center lg:leading-[70px] w-4/5">A barn house of this design has a striking appearance</h2>
-                <p class="text-center text-gray-500 w-2/3 font-[600] text-[16px]">This barn house design boasts a striking appearance, blending rustic charm with modern elegance. Its spacious layout and high ceilings create an airy, open feel, while large windows invite natural light, enhancing the warm, inviting atmosphere.</p>
+                <p class="text-justify md:text-center text-gray-500 md:w-3/4 lg:w-2/3 font-[600] text-[16px]">This barn house design boasts a striking appearance, blending rustic charm with modern elegance. Its spacious layout and high ceilings create an airy, open feel, while large windows invite natural light, enhancing the warm, inviting atmosphere.</p>
                 <button
                     class=" bg-color-secondary rounded-3xl text-[20px] font-bold w-full md:w-auto px-7 py-2 hover:bg-color-primary">
                     View Details
@@ -156,13 +156,16 @@
                 <section class="container mx-auto  ">
                        <div class="grid grid-cols-1 lg:grid-cols-2  gap-7">
                              <!-- text container -->
-                            <div class="space-y-6 flex flex-col justify-center items-center lg:justify-normal lg:items-start">
+                            <div class="relative space-y-6 flex flex-col justify-center items-center lg:justify-normal lg:items-start">
+                                <div class="absolute -top-7 -left-12 hidden lg:block">
+                                    <img src="assets/Vector.png" alt="">
+                                </div>
                                 <div class="flex gap-2 justify-center items-center bg-white rounded-2xl p-2 border-2 w-[150px]">
                                     <i class="fa-solid fa-arrow-right"></i>
                                     <h3 class="font-bold">About Us</h3>
                                 </div>
-                                <h2 class="text-[40px] font-[900] w-2/3 leading-tight text-center lg:text-left">We design thoughtful, liveable spaces</h2>
-                                <p class="text-gray-500 font-semibold w-5/6 text-center lg:text-left">Our designs prioritize both aesthetics and functionality, creating spaces that are not only beautiful but also comfortable and practical. </p>
+                                <h2 class=" text-[25px] md:text-[30px] lg:text-[40px] font-[900] md:w-2/3 leading-tight text-center lg:text-left">We design thoughtful, liveable spaces</h2>
+                                <p class="text-gray-500 font-semibold w-5/6 text-justify md:text-center lg:text-justify ">Our designs prioritize both aesthetics and functionality, creating spaces that are not only beautiful but also comfortable and practical. </p>
                                 <!-- card -->
                                  <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-5 mt-12">
                                         <!-- card-1 -->
@@ -174,7 +177,7 @@
                                             <!-- card-body -->
                                              <div class="space-y-2">
                                                 <h5 class="text[22px] font-bold text-gray-600">Commercial</h5>
-                                                <p class="text-gray-700 opacity-80 w-2/ font-medium w-2/3">Our commercial house offers flexible and modern spaces designed to support business growth. </p>
+                                                <p class="text-gray-700 opacity-80  font-medium lg:w-2/3 w-full  text-justify">Our commercial house offers flexible and modern spaces designed to support business growth. </p>
                                              </div>
                                          </div>
 
@@ -187,7 +190,7 @@
                                                 <!-- card-body -->
                                                  <div class="space-y-2">
                                                     <h5 class="text[22px] font-bold text-gray-600">Residential</h5>
-                                                    <p class="text-gray-700 opacity-80 w-2/3 font-medium">Our residential house designs blend comfort and style, creating spaces that feel like home.</p>
+                                                    <p class="text-gray-700 opacity-80 lg:w-2/3 text-justify font-medium">Our residential house designs blend comfort and style, creating spaces that feel like home.</p>
                                                  </div>
                                              </div>
 
@@ -244,8 +247,8 @@
                             <i class="fa-solid fa-arrow-right"></i>
                             <h3 class="font-bold">How we works</h3>
                           </button>
-                        <h2 class="text-[40px] font-[900] w-2/3 leading-tight text-center ">Our Works Process</h2>
-                        <p class="text-gray-500 font-semibold w-1/2 text-center ">Our work process is designed to ensure efficiency and quality at every step. We start with an in-depth consultation to understand your needs, followed by detailed planning and design. </p>
+                        <h2 class="text-[25px] md:text-[30px] lg:text-[40px] font-[900] w-2/3 leading-tight text-center ">Our Works Process</h2>
+                        <p class="text-gray-500 font-semibold md:w-3/4 lg:w-1/2  text-justify md:text-center ">Our work process is designed to ensure efficiency and quality at every step. We start with an in-depth consultation to understand your needs, followed by detailed planning and design. </p>
                          </div>
 
                          <!-- card -->
@@ -254,25 +257,25 @@
                                <div class="bg-[#E7C1D3] p-10 space-y-4 rounded-2xl">
                                     <img src="assets/concept.png" alt="">
                                     <h3 class="text-[20px] font-bold">Concept</h3>
-                                    <p class="text-gray-600 w-5/6 font-[500] ">Our design concept focuses on creating spaces that are both functional and aesthetically pleasing.</p>
+                                    <p class="text-gray-600 w-5/6 font-[500] text-justify">Our design concept focuses on creating spaces that are both functional and aesthetically pleasing.</p>
                                </div>
                                  <!-- card-2 -->
                                  <div class="bg-[#EFDA6E] p-10 space-y-4 rounded-2xl">
                                   <img src="assets/flow-chart.png" alt="">
                                   <h3 class="text-[20px] font-bold">Design Process</h3>
-                                  <p class="text-gray-600 w-5/6 font-[500] ">Our design process ensures that every project is executed with precision and creativity.</p>
+                                  <p class="text-gray-600 w-5/6 font-[500] text-justify">Our design process ensures that every project is executed with precision and creativity.</p>
                              </div>
                                   <!-- card-3 -->
                                   <div class="bg-[#A4DAC3] p-10 space-y-4 rounded-2xl">
                                     <img src="assets/vision.png" alt="">
                                     <h3 class="text-[20px] font-bold">Supervision</h3>
-                                    <p class="text-gray-600 w-5/6 font-[500] ">Supervision involves overseeing tasks and activities to ensure they are completed effectively and efficiently.</p>
+                                    <p class="text-gray-600 w-5/6 font-[500] text-justify">Supervision involves overseeing tasks and activities to ensure they are completed effectively and efficiently.</p>
                                </div>
                                       <!-- card-4 -->
                                       <div class="bg-[#77AAEA] p-10 space-y-4 rounded-2xl">
                                         <img src="assets/budget-planning.png" alt="">
                                         <h3 class="text-[20px] font-bold">Budget Planning</h3>
-                                        <p class="text-gray-600 w-5/6 font-[500] ">Budget planning involves creating a detailed financial plan to manage income and expenses effectively. </p>
+                                        <p class="text-gray-600 w-5/6 font-[500] text-justify">Budget planning involves creating a detailed financial plan to manage income and expenses effectively. </p>
                                    </div>
                           </div>
                  </section>
@@ -292,8 +295,8 @@
                           <i class="fa-solid fa-arrow-right"></i>
                           <h3 class="font-bold">Explore our Latest works</h3>
                         </button>
-                      <h2 class="text-[40px] font-[900] w-2/3 leading-tight text-center ">Our Latest Portfolio</h2>
-                      <p class="text-gray-500 font-semibold w-1/2 text-center ">Explore our latest portfolio to see our recent projects. From modern residential designs to innovative commercial spaces, our portfolio showcases our commitment to quality and creativity.</p>
+                      <h2 class="text-[25px] md:text-[30px] lg:text-[40px] font-[900] w-2/3 leading-tight text-center ">Our Latest Portfolio</h2>
+                      <p class="text-gray-500 font-semibold md:w-3/4 lg:w-1/2 text-justify md:text-center ">Explore our latest portfolio to see our recent projects. From modern residential designs to innovative commercial spaces, our portfolio showcases our commitment to quality and creativity.</p>
                       </div>
                       <!-- card -->
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6">
@@ -306,7 +309,7 @@
                                 <!-- text -->
                                 <div class="space-y-6 2xl:space-y-16">
                                     <h2 class="text-[24px] font-bold text-gray-600">Commercial</h2>
-                                    <p class="text-gray-500 font-[500] w-4/5">Our commercial house projects are designed to meet the diverse needs of businesses, offering modern and flexible spaces that promote productivity and growth. </p>
+                                    <p class="text-gray-500 font-[500] w-4/5 text-justify">Our commercial house projects are designed to meet the diverse needs of businesses, offering modern and flexible spaces that promote productivity and growth. </p>
                                     <button
                                     class=" bg-white rounded-3xl text-[20px] font-bold   hover:bg-color-primary">
                                     View Details
@@ -340,7 +343,7 @@
                                 <!-- text -->
                                 <div class="space-y-6">
                                     <h2 class="text-[24px] font-bold text-gray-600">Residential</h2>
-                                    <p class="text-gray-500 font-[500] w-[90%]">Our residential house projects showcase our commitment to creating beautiful and functional living spaces. Each home is designed with attention to detail.</p>
+                                    <p class="text-gray-500 font-[500] w-[90%] text-justify">Our residential house projects showcase our commitment to creating beautiful and functional living spaces. Each home is designed with attention to detail.</p>
                                     <button
                                     class=" bg-white rounded-3xl text-[20px] font-bold   hover:bg-color-primary">
                                     View Details
@@ -380,8 +383,8 @@
                         <i class="fa-solid fa-arrow-right"></i>
                         <h3 class="font-bold">Rinterio News</h3>
                       </button>
-                    <h2 class="text-[40px] font-[900] w-2/3 leading-tight text-center ">Read Our Articles and News</h2>
-                    <p class="text-gray-500 font-semibold w-1/2 text-center ">Stay updated with the latest trends and insights by reading our articles and news. We cover a wide range of topics, from design tips and industry news to project highlights and expert advice. Dive into our content to stay informed and inspired.</p>
+                    <h2 class="text-[25px] md:text-[30px] lg:text-[40px] font-[900] w-2/3 leading-tight text-center ">Read Our Articles and News</h2>
+                    <p class="text-gray-500 font-semibold md:w-3/4 lg:w-1/2 text-justify md:text-center ">Stay updated with the latest trends and insights by reading our articles and news. We cover a wide range of topics, from design tips and industry news to project highlights and expert advice. Dive into our content to stay informed and inspired.</p>
                     </div>
                     <!-- card -->
                      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -405,7 +408,7 @@
                                         </div>
                                     </div>
                                     <h2 class="text-[20px] font-[900] text-gray-700">How to choose the furniture right  of your home.</h2>
-                                    <p class="font-[600] text-gray-500">Consider the functionality of each room and what furniture pieces are essential. Think about your lifestyle and how you use the space. </p>
+                                    <p class="font-[600] text-gray-500 text-justify">Consider the functionality of each room and what furniture pieces are essential. Think about your lifestyle and how you use the space. </p>
                                     <button
                                     class=" text-[20px] font-bold ">
                                     Read More
@@ -434,7 +437,7 @@
                                               </div>
                                           </div>
                                           <h2 class="text-[20px] font-[900] text-gray-700">How can homeowners increase the value of their property?</h2>
-                                          <p class="font-[600] text-gray-500">The exterior of your home is the first thing potential buyers see. Enhancing curb appeal can include landscapingtic charm and modern. </p>
+                                          <p class="font-[600] text-gray-500 text-justify">The exterior of your home is the first thing potential buyers see. Enhancing curb appeal can include landscapingtic charm and modern. </p>
                                           <button
                                           class=" text-[20px] font-bold ">
                                           Read More
@@ -464,7 +467,7 @@
                                           </div>
                                       </div>
                                       <h2 class="text-[20px] font-[900] text-gray-700">What are the latest trends in home design and deco</h2>
-                                      <p class="font-[600] text-gray-500">Shades of blue, from navy to sapphire, are dominating the color trends this year. These hues bring a calming and tranquil quality to spaces </p>
+                                      <p class="font-[600] text-gray-500 text-justify">Shades of blue, from navy to sapphire, are dominating the color trends this year. These hues bring a calming and tranquil quality to spaces </p>
                                       <button
                                       class=" text-[20px] font-bold ">
                                       Read More
@@ -479,7 +482,16 @@
 
             <!-- faq section -->
              <div  class="bg-gray-100 pb-24 px-5 md:px-0">
-                <section class="container mx-auto ">
+                <section class="container mx-auto space-y-10">
+                       <!--  text  -->
+                     <div class="flex flex-col justify-center items-center gap-6">
+                      <button class="flex gap-2 justify-center items-center bg-color-secondary hover:bg-color-primary rounded-2xl px-5 py-2 border-2 ">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <h3 class="font-bold">FAQ</h3>
+                      </button>
+                    <h2 class="text-[25px] md:text-[30px] lg:text-[40px] font-[900] w-2/3 leading-tight text-center ">Frequently Asked <span class="text-color-primary font-[900]">Questions</span></h2>
+                    <p class="text-gray-500 font-semibold md:w-3/4 lg:w-1/2 text-justify md:text-center ">Welcome to our FAQ section! Here, you’ll find answers to the most common questions about our services, products, and policies.</p>
+                    </div>
                       <div class="flex flex-col lg:flex-row gap-6 justify-around">
                           <!-- faq image -->
                           <div class="mx-auto">
@@ -491,35 +503,35 @@
                               <input type="radio" name="my-accordion-3" checked="checked" />
                               <div class="collapse-title text-xl font-semibold text-slate-700">What types of commercial and residential properties do you specialize in?</div>
                               <div class="collapse-content">
-                                <p>hello</p>
+                                <p>We specialize in a wide range of commercial and residential properties to meet diverse needs:</p>
                               </div>
                             </div>
                             <div class="collapse collapse-plus bg-gray-200">
                               <input type="radio" name="my-accordion-3" />
                               <div class="collapse-title text-xl font-semibold text-slate-700">Can you provide examples of past projects or a portfolio?</div>
                               <div class="collapse-content">
-                                <p>hello</p>
+                                <p>Certainly! Here are some examples of past projects and portfolios that showcase our expertise in both commercial and residential properties:</p>
                               </div>
                             </div>
                             <div class="collapse collapse-plus bg-gray-200">
                               <input type="radio" name="my-accordion-3" />
                               <div class="collapse-title text-xl font-semibold text-slate-700">How do you ensure that projects stay within budget?</div>
                               <div class="collapse-content">
-                                <p>hello</p>
+                                <p>We start with a comprehensive project plan that outlines all costs, timelines, and resources required.</p>
                               </div>
                             </div>
                             <div class="collapse collapse-plus bg-gray-200">
                               <input type="radio" name="my-accordion-3" />
                               <div class="collapse-title text-xl font-semibold text-slate-700">How do you handle permits and regulatory compliance for building projects?</div>
                               <div class="collapse-content">
-                                <p>hello</p>
+                                <p>We handle permits and regulatory compliance through a structured and thorough process to ensure all legal requirements are met:</p>
                               </div>
                             </div>
                             <div class="collapse collapse-plus bg-gray-200">
                               <input type="radio" name="my-accordion-3" />
                               <div class="collapse-title text-xl font-semibold text-slate-700">Do you offer custom design services for both commercial and residential properties?</div>
                               <div class="collapse-content">
-                                <p>hello</p>
+                                <p>es, we offer custom design services for both commercial and residential properties. </p>
                               </div>
                             </div>
                            
@@ -539,8 +551,8 @@
                         <i class="fa-solid fa-arrow-right"></i>
                         <h3 class="font-bold">Let’s Connect</h3>
                       </button>
-                    <h2 class="text-[40px] font-[900] w-2/3 leading-tight text-center ">Let’s Discuss Next Project</h2>
-                    <p class="text-gray-500 font-semibold w-1/2 text-center ">Join us as we explore innovative ideas and practical solutions for your next home improvement project. Whether you’re planning a major renovation or a simple update, we’ll provide expert advice, inspiration.</p>
+                    <h2 class="text-[25px] md:text-[30px] lg:text-[40px] font-[900] w-2/3 leading-tight text-center ">Let’s Discuss Next Project</h2>
+                    <p class="text-gray-500 font-semibold w-full md:w-3/4 lg:w-1/2 text-justify md:text-center ">Join us as we explore innovative ideas and practical solutions for your next home improvement project. Whether you’re planning a major renovation or a simple update, we’ll provide expert advice, inspiration.</p>
                     </div>
 
                     <div class="lg:px-32">
@@ -589,7 +601,7 @@
                 <a class="text-[32px] font-bold text-white">Rinterio</a>
               </div>
 
-              <p class="text-gray-500 font-[800] md:w-3/6 text-center"> we specialize in building high-quality commercial and residential properties. Our commitment to excellence and innovation ensures that every project meets the highest standards. Let us help you create the perfect space for your needs.</p>
+              <p class="text-gray-500 font-[800] md:w-3/6 text-justify md:text-center"> we specialize in building high-quality commercial and residential properties. Our commitment to excellence and innovation ensures that every project meets the highest standards. Let us help you create the perfect space for your needs.</p>
 
               <div class="">
                   <ul class="flex flex-col md:flex-row justify-between text-gray-300 text-xl font-[900] gap-5  md:gap-36">
